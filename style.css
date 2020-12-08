@@ -80,6 +80,7 @@ hr {
 }
 .hero h1 {
     padding: 1rem 0;
+    text-align: center;
 }
 .hero-heading {
     color: var(--primary-color);
@@ -93,7 +94,7 @@ hr {
 }
 
 /* footer */
-/* footer {
+footer {
     padding-inline-start: 0px;
 }
 .list-footer {
@@ -102,4 +103,4 @@ hr {
 .list-footer-inline {
     display: inline;
     padding: 1rem;
-} */
+}
