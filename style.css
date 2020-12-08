@@ -67,7 +67,7 @@ hr {
 }
 .list-nav li {
     display: inline;
-    padding: 1rem;
+    padding: 1rem 0.5rem;
 }
 /* Header */
 .hero {
