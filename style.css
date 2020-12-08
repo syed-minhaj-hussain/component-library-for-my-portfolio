@@ -94,6 +94,10 @@ hr {
 }
 
 /* footer */
+footer {
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
 footer ul {
     padding-inline-start: 0px;
 }
