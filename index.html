@@ -39,28 +39,28 @@
     <h2>@Links</h2>
     <!-- <a href="https://www.syedminhajhussain.netlify.app">Visit My Website</a> -->
 
-    <a href="/" class="link-primary">Primary Link</a>
-    <a href="/" class="link-secondary">Secondary Link</a>
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link  link-secondary">Secondary Link</a>
     <hr>
 
     <!-- Lists -->
     <h2>@lists</h2>
     <h3>Unordered Lists</h3>
-    <ul>
+    <ul class="list">
         <li>One</li>
         <li>Two</li>
         <li>Three</li>
     </ul>
 
     <h3>Ordered Lists</h3>
-    <ol>
+    <ol class="list">
         <li>One</li>
         <li>Two</li>
         <li>Three</li>
     </ol>
 
     <h3>Reverse Ordered Lists</h3>
-    <ol>
+    <ol reversed>
         <li>Three</li>
         <li>Two</li>
         <li>One</li>
@@ -68,12 +68,12 @@
     <hr>
 
     <!-- Navbar -->
-    <nav>
-        <div>Brad</div>
-        <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Blogs</li>
+    <nav class="navbar">
+        <h1 class="navbar-brand">Minhaj Hussain</h1>
+        <ul class="list list-nav">
+            <li><a href="/index.html" class="link">Home</a></li>
+            <li><a href="/" class="link">Portfolio</a></li>
+            <li><a href="/" class="link">Blogs</a></li>
         </ul>
     </nav>
 
@@ -81,27 +81,31 @@
 
     <!-- Header -->
     <h2>@header</h2>
-    <header>
+    <header class="container container-center hero">
         <img src="images/minhaj.svg" alt="Developer">
-        <h1>Syed Minhaj Hussain</h1>
+        <h1>Syed Minhaj Hussain, <span class="hero-heading">Aspiring Web Developer</span></h1>
     </header>
     <hr>
 
     <!-- Section -->
     <h2>@section</h2>    
-    <h3>Normal Section</h3>
+    <div class="section section-normal">
+        <h3>Normal Section</h3>
     <p>This Is A Normal Section!</p>
+    </div>
 
-    <h3>Off White Section</h3>
+    <div class="section section-offwhite">
+        <h3>Off White Section</h3>
     <p>This Will Have Gray Color</p>
+    </div>
     <hr>
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <h3>footer section</h3>
-        <ul>
-            <li>socialOne</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+        <ul class="list list-footer">
+            <li class="list-footer-inline">socialOne</li>
+            <li class="list-footer-inline">socialTwo</li>
+            <li class="list-footer-inline">socialThree</li>
         </ul>
     </footer>
 
